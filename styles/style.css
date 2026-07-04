@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #00040f;
+}
+
+section {
+  height: 1000px;
+  margin: 100px;
+  border: 2px solid red;
+}
+
+/* content - padding - border - margin */
+
+header {
+  background-color: #00040f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.header-container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 133px 0px 133px; */
+  padding: 0px 133px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 56px;
+}
+
+.container section {
+  scroll-margin-top: 100px;
+}
+
+/* footer */
+
+.home-footer {
+  margin-top: 86px;
+  padding: 68px 103px 34px 160px;
+  background-color: #0b0a0c60;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+/* Footer Top Part */
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3f3e45;
+  padding-bottom: 46px;
+}
+
+.footer-logo-section img {
+  width: 266px;
+  height: 72.14px;
+  margin-bottom: 30px;
+}
+
+.footer-logo-section p {
+  max-width: 312px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-description {
+  color: #ffffff70;
+}
+
+/* right side */
+
+.footer-links-sections {
+  display: flex;
+  max-width: 690px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-column h4 {
+  margin-bottom: 24px;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-column ul li {
+  color: #ffffff70;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.social-container {
+  display: flex;
+  gap: 30px;
+  margin-right: 29px;
+}
